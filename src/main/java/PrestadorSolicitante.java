@@ -30,7 +30,7 @@ public class PrestadorSolicitante {
         senha.sendKeys("willan07091992");
         driver.findElement(By.id("submit")).click();
         driver.findElement(By.xpath("/html/body/div/div/div/div/div/div/div[2]/div/div[4]/div/a")).click();
-
+        System.out.println("Teste");
 
     }
 
